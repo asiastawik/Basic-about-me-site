@@ -1,0 +1,142 @@
+a {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+body {
+	font-family: "Merriweather", serif;
+	margin: 50px;
+	text-align: center;
+	width: 95%;
+    height: 100%;
+	color: #40514e;
+}
+
+h1 {
+	font-size: 4rem;
+	margin: 50px auto 0 auto;
+	font-family: 'Sacramento', cursive;
+	color: #272829;
+}	
+
+h2 {
+  color: #61677A;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: dotted #D8D9DA 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p {
+	line-height:1.5;
+}
+	
+.bottom-cloud {
+	bottom: 300px;
+	right: 100px;
+	position: absolute;
+	width: 15%;
+}
+
+.bottom-container {
+	background-color: #D8D9DA;
+	position: relative;
+	padding: 50px 0 20px;
+	margin: 100px 0;
+}
+
+.btn {
+  background: #61677A;
+  background-image: -webkit-linear-gradient(top, #D8D9DA, #61677A);
+  background-image: -moz-linear-gradient(top, #D8D9DA, #61677A);
+  background-image: -ms-linear-gradient(top, #D8D9DA, #61677A);
+  background-image: -o-linear-gradient(top, #D8D9DA, #61677A);
+  background-image: linear-gradient(to bottom, #D8D9DA, #61677A);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #61677A;
+  font-size: 0.9rem;
+  padding: 10px 0;
+}
+
+.footer-link {
+  color: #61677A;
+  font-size: 1rem;
+  padding: 20px 0;
+}
+
+.middle-container {
+	position: relative;
+	top: 50px;
+	margin: 10px 0;
+}
+
+.mountain {
+	position: relative;
+	top: 80px;
+	width: 60%;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  margin: 10px auto 50px auto;
+  text-align: left;
+  row-gap: 2rem;
+  column-gap: 1rem;
+}
+
+.parent2 {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  margin: 10px auto 50px auto;
+  text-align: left;
+  row-gap: 2rem;
+  column-gap: 1rem;
+}
+
+.top-cloud {
+	left: 100px;
+	position: absolute;
+	transform: rotateY(180deg);
+	width: 17%;
+}
+	
+.top-container {
+	background-color: #E3DFFD;
+	position: relative;
+}
+
+.typing {
+	margin: 50px auto 10px auto;
+	width: 250px;
+}
+
